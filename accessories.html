@@ -1,65 +1,91 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>Computer Accessories</title>
     <meta charset="UTF-8">
 </head>
-<body background="background.jpg" text="black" topmargin="20" leftmargin="20">
-
+<body>
     <header>
-        <h1>Computer Accessories</h1>
+        <center>
+        <h1>🖱️ Computer Accessories: Input and Output</h1>
         <nav>
             <a href="index.html">Home</a> | 
             <a href="parts.html">Parts</a> | 
             <a href="accessories.html">Accessories</a>
         </nav>
+        </center>
         <hr>
     </header>
 
     <main>
         <section>
-            <h2>Keyboard</h2>
-            <img src="key.jpg" alt="Keyboard Image" width="300">
-            <p><tt>Input device for typing commands and text.</tt></p>
+            <h2>**Keyboard**</h2>
+            <center>
+            <p><img src="key.jpg" alt="Keyboard Image" width="350"></p>
+            <p>A primary **input device** for typing commands, text, and interacting with software.</p>
+            </center>
         </section>
+        
+        <hr>
 
         <section>
-            <h2>Mouse</h2>
-            <img src="mouse.jpg" alt="Mouse Image" width="300">
-            <p><u>Pointing device</u> used for navigation.</p>
+            <h2>**Mouse**</h2>
+            <center>
+            <p><img src="mouse.jpg" alt="Mouse Image" width="350"></p>
+            <p>The essential **pointing device** used for screen navigation, clicking, and selecting elements.</p>
+            </center>
         </section>
 
+        <hr>
+
         <section>
-            <h2>Headphones</h2>
-            <img src="head.avif" alt="Headphones Image" width="300">
-            <p>Used to listen to <strong>audio output</strong>.</p>
+            <h2>**Headphones / Headset**</h2>
+            <center>
+            <p><img src="head.avif" alt="Headphones Image" width="350"></p>
+            <p>An **output device** used to listen to **audio output** privately.</p>
             <audio controls>
                 <source src="sound.mp3" type="audio/mpeg">
-                Your browser does not support audio.
+                *Your browser does not support the audio element.*
             </audio>
+            </center>
         </section>
 
+        <hr>
+
+        <center>
         <form>
-            <h3>Feedback Form</h3>
-            First Name: <input type="text" name="fname"><br>
-            Last Name: <input type="text" name="lname"><br>
-            Gender: 
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female<br>
-            Accessories you like: <br>
-            <input type="checkbox" name="acc" value="keyboard"> Keyboard<br>
-            <input type="checkbox" name="acc" value="mouse"> Mouse<br>
-            <input type="checkbox" name="acc" value="headphones"> Headphones<br>
+            <h2>&#x1F4DD; Your Feedback</h2>
+            <fieldset>
+                <legend>Personal Details</legend>
+                First Name: <input type="text" name="fname"><br><br>
+                Last Name: <input type="text" name="lname"><br><br>
+                Gender: 
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </fieldset>
+
+            <fieldset>
+                <legend>Accessory Preferences</legend>
+                Accessories you like: <br>
+                <input type="checkbox" name="acc" value="keyboard"> Keyboard<br>
+                <input type="checkbox" name="acc" value="mouse"> Mouse<br>
+                <input type="checkbox" name="acc" value="headphones"> Headphones
+            </fieldset>
+            
             <br>
-            Your Opinion:<br>
-            <textarea rows="4" cols="40"></textarea><br>
-            <input type="submit" value="Submit">
+            Your Opinion on the Guide:<br>
+            <textarea rows="6" cols="50" placeholder="Type your thoughts here..."></textarea><br><br>
+            <input type="submit" value="Submit Feedback">
         </form>
+        </center>
     </main>
 
     <footer>
         <hr>
+        <center>
         <p><small>Accessories page - part of Computer Guide Website</small></p>
+        </center>
     </footer>
 </body>
 </html>
